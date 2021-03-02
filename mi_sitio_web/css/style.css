@@ -1,0 +1,54 @@
+
+#encabezado{
+    background:#df3a24;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+}
+
+.piePagina{
+    width: 100px;
+    height: 100px;
+    background:#15101b;
+    color: white;
+    bottom: 1;
+    position: fixed;
+    left: 0;
+}
+#menu{
+    height: 70px;
+    position:relative;
+    top: 100px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    text-decoration:solid;  
+}
+li{
+    float:initial;
+}
+li a{
+    display:block;
+    color:black;
+    text-align:center;
+    padding: 10px;
+    text-decoration:yellow;
+}
+li a:hover{
+    background-color:red;
+}
+#datos{
+    width: 80%;
+    background-color:cadetblue;
+    height: 200px;
+    margin: auto;
+    opacity: 2;
+    color:black;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
